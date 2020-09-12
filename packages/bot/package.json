@@ -1,0 +1,9 @@
+{
+  "name": "@schelper/bot",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "vk-io": "^4.0.2"
+  }
+}
