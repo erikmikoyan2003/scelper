@@ -1,5 +1,5 @@
 {
-  "name": "schelper",
+  "name": "scelper",
   "version": "1.0.0",
   "description": "this is a chatbot for VKontakte to administer school chats.",
   "main": "packages/app/src/index.js",
@@ -8,10 +8,12 @@
   "private": true,
   "scripts": {
     "start": "node .",
-    "auth": "node packages/bot/src/auth.js"
+    "auth": "node scripts/auth",
+    "addCertificates": "node scripts/addCertificates"
   },
 
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "scripts"
   ]
 }

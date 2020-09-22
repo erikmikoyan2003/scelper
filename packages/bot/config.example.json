@@ -1,7 +1,10 @@
 {
   "name": "",
   "id": "",
-  "token": "",
-  "secret": "",
-  "confirmation": ""
+  "botToken": "",
+  "botSecret": "",
+  "botConfirmation": "",
+
+  "loggerToken": "",
+  "adminID": ""
 }

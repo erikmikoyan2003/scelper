@@ -5,10 +5,13 @@ const https = require("https");
 const express = require("express");
 const app = express();
 
-const bot = require("@schelper/bot");
+const bot = require("@scelper/bot");
+const { error } = require("console");
 
+// Получение json-а из body
 app.use(express.json());
 
+// Обработка запросов боту
 app.post("/vkapi", async (req, res) => {
   await bot.listen(req.body, res);
 });

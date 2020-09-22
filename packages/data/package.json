@@ -1,0 +1,8 @@
+{
+  "name": "@scelper/data",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "dependencies": {
+    "mongoose": "^5.10.5"
+    }
+}
